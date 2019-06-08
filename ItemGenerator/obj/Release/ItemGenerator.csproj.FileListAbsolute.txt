@@ -1,0 +1,6 @@
+C:\Users\2339695\source\repos\ItemGenerator\ItemGenerator\bin\Release\ItemGenerator.exe.config
+C:\Users\2339695\source\repos\ItemGenerator\ItemGenerator\bin\Release\ItemGenerator.exe
+C:\Users\2339695\source\repos\ItemGenerator\ItemGenerator\bin\Release\ItemGenerator.pdb
+C:\Users\2339695\source\repos\ItemGenerator\ItemGenerator\obj\Release\ItemGenerator.csproj.CoreCompileInputs.cache
+C:\Users\2339695\source\repos\ItemGenerator\ItemGenerator\obj\Release\ItemGenerator.exe
+C:\Users\2339695\source\repos\ItemGenerator\ItemGenerator\obj\Release\ItemGenerator.pdb
