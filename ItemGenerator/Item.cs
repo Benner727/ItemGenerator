@@ -25,6 +25,25 @@ namespace ItemGenerator
             CreateDescription();
         }
 
+        public class Comparer : IEqualityComparer<Item>
+        {
+            public bool Equals(Item one, Item two)
+            {
+                if (one == null || two == null)
+                    return false;
+
+                return (one.SKU == two.SKU);
+            }
+
+            public int GetHashCode(Item obj)
+            {
+                if (obj == null)
+                    return 0;
+
+                return (obj.SKU == null ? 0 : obj.SKU.GetHashCode());
+            }
+        }
+
         void CreateSKU()
         {
             if (Product.ProductLine == "ACCESSORY")

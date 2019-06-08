@@ -120,7 +120,7 @@ namespace ItemGenerator
                 }
             }
 
-            if (ItemList.Count != ItemList.Distinct().Count())
+            if (ItemList.Count != ItemList.Distinct(new Item.Comparer()).Count())
             {
                 // Duplicates exist
                 throw new InvalidOperationException("Error: Duplicate Items Found.");
